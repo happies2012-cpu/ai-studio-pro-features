@@ -1,0 +1,33 @@
+{
+  "name": "ai-studio-pro-features",
+  "version": "1.0.0",
+  "description": "Pro plan features for AI Studio application",
+  "main": "src/App-enhanced.js",
+  "scripts": {
+    "build": "bash build-pro-features.sh",
+    "deploy": "bash deploy-to-github.sh ai-studio-pro-features",
+    "start": "echo 'This is a React component library. Integrate components into your main application.'"
+  },
+  "keywords": [
+    "ai",
+    "studio",
+    "pro",
+    "features",
+    "react",
+    "components"
+  ],
+  "author": "AI Studio Development Team",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/ai-studio-pro-features.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/ai-studio-pro-features/issues"
+  },
+  "homepage": "https://github.com/your-username/ai-studio-pro-features#readme"
+}

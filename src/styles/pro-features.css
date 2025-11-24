@@ -1,0 +1,96 @@
+/* Pro Features Styles */
+
+.pro-restricted {
+  opacity: 0.7;
+  position: relative;
+}
+
+.pro-restricted::after {
+  content: "🔒";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.cloud-integration, .git-integration {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.integration-section {
+  margin: 15px 0;
+}
+
+.integration-section h4 {
+  margin-top: 0;
+}
+
+.integration-section input, 
+.integration-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.payment-button {
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.payment-button.gpay {
+  background-color: #4285F4;
+  color: white;
+}
+
+.payment-button.payu {
+  background-color: #00ADEF;
+  color: white;
+}
+
+.export-button.restricted {
+  background-color: #f0f0f0;
+  color: #888;
+  cursor: not-allowed;
+}
+
+.lock-icon {
+  margin-left: 5px;
+}
+
+.pro-indicator {
+  background-color: #FFD700;
+  color: #000;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  margin-left: 10px;
+}
+
+.pro-feature-wrapper {
+  display: inline-block;
+}
+
+.upgrade-prompt {
+  background-color: #e3f2fd;
+  border: 1px solid #2196f3;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.pro-banner {
+  background-color: #fff8e1;
+  border: 1px solid #ffc107;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
